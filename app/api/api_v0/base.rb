@@ -9,5 +9,6 @@ module ApiV0
     helpers ::ApiV0::Helpers
 
     mount Ping
+    mount Posts
   end
 end
