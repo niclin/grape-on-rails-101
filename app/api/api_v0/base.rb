@@ -6,6 +6,8 @@ module ApiV0
 
     use ApiV0::Auth::Middleware
 
+    helpers ::ApiV0::Helpers
+
     mount Ping
   end
 end
