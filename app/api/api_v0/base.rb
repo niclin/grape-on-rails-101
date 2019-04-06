@@ -10,5 +10,11 @@ module ApiV0
 
     mount Ping
     mount Posts
+
+    add_swagger_documentation(
+      mount_path: 'swagger_doc',
+      hide_format: true,
+      hide_documentation_path: true
+    )
   end
 end

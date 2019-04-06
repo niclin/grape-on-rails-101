@@ -38,6 +38,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem "grape"
 gem "grape-entity"
+gem 'grape-swagger'
+gem 'grape-swagger-rails'
 gem "devise"
 
 group :development, :test do
