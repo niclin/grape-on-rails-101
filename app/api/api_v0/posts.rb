@@ -4,7 +4,9 @@ module ApiV0
 
     desc "Get all your posts"
     get "/posts" do
-      current_user.posts
+      posts = current_user.posts
+
+      present posts, with: ApiV0::Entities::Post
     end
   end
 end
