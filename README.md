@@ -1,6 +1,6 @@
 # Grape on Rails 101 範例
 
-[本書連結](https://niclin.gitbooks.io/grape-on-rails-101/)
+[本書連結](https://legacy.gitbook.com/book/niclin/grape-on-rails-101/details)
 
 對於 Ruby on Rails 的開發者來說，前端 + 後端 + DevOps 一起碰已是家常便飯。
 
